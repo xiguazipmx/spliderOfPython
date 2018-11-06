@@ -73,6 +73,8 @@ MONGO_HOST = '127.0.0.1'
 MONGO_PORT = 27017
 MONGO_DB = 'sina'
 
+DUPEFILTER_CLASS = 'scrapy.dupefilter.BaseDupeFilter'
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
